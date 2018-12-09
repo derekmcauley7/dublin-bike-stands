@@ -1,7 +1,10 @@
 # bike-stands
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Shows all the bike stands available in Dublin on Google maps. 
+Used the bike stands data from data.gov.ie 
+Also using this Ember addon for Google maps https://www.npmjs.com/package/ember-g-map
+
+
 
 ## Prerequisites
 
