@@ -4,7 +4,7 @@ Shows all the bike stands available in Dublin on Google maps.
 Used the bike stands data from data.gov.ie 
 Also using this Ember addon for Google maps https://www.npmjs.com/package/ember-g-map
 
-
+<img width="665" alt="screenshot 2018-12-09 at 12 35 07" src="https://user-images.githubusercontent.com/5990147/49697777-57780000-fbb3-11e8-9df5-faefd33779fa.png">
 
 ## Prerequisites
 
