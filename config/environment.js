@@ -22,6 +22,16 @@ module.exports = function(environment) {
       // when it is created
     }
   };
+  ENV['g-map'] = {
+    exclude: true,
+    libraries: ['places', 'geometry'],
+    // key: 'your-unique-google-map-api-key',
+    // client: 'gme-your-unique-google-client-id',
+    channel: 'my-google-map-api-channel',
+    version: '3.26',
+    language: 'ru',
+    protocol: 'https'
+  };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;

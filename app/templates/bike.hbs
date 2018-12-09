@@ -1,0 +1,12 @@
+{{#g-map lat=53.34929607 lng=-6.26036167 zoom=13 as |context|}}
+{{#each model as |bike|}}
+{{#g-map-marker context lat=bike.Y lng=bike.X as |markerContext|}}
+    {{#g-map-infowindow markerContext openOn="mouseover" closeOn="mouseout"}}
+      <h5>{{bike.location_stand}}</h5>
+      <b>Number of Stands: {{bike.no_stands}}<br>
+      Weather Protection: {{bike.protection_weather}}<br>
+      Security: {{bike.security_safetyrating}}<br></b>
+    {{/g-map-infowindow}}
+{{/g-map-marker}}
+{{/each}}
+{{/g-map}}
